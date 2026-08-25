@@ -1,0 +1,19 @@
+{
+  "model": "Logistic Regression",
+  "target": "declined_next_month",
+  "features": [
+    "impressions_31d",
+    "ctr_31d",
+    "avg_position_31d",
+    "active_gsc_days"
+  ],
+  "ranked_queue_size": 20,
+  "grouped_holdout_precision_at_20": 0.8,
+  "grouped_cv_mean_precision_at_20": 0.71,
+  "precision_at_20_review_threshold": 0.6,
+  "correct_future_declines_in_top_20": 16,
+  "human_review_required_for_all": true,
+  "automatic_execution_allowed": false,
+  "claim_level": "directional decision-support",
+  "retraining_policy": "monitoring triggers require human investigation before retraining"
+}
