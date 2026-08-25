@@ -1,1 +1,1 @@
-PASTE-YOUR-DEPLOYED-PAPER-URL-HERE
+https://azam-hussain-ml.github.io/Starter-Notebook-flyrank-ml-internship/
