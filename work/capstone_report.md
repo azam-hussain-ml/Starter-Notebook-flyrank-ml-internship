@@ -313,3 +313,31 @@ The exact deployed URL is also stored in:
 ```bash
 git clone https://github.com/azam-hussain-ml/Starter-Notebook-flyrank-ml-internship.git
 cd Starter-Notebook-flyrank-ml-internship
+
+```
+
+2. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the capstone notebook:
+
+`work/notebooks/capstone.ipynb`
+
+For Google Colab, add the Hugging Face READ token as a Colab Secret named `HF_TOKEN`. Do not store the token in the repository.
+
+4. Run the capstone notebook from top to bottom to reproduce the analytical frame, model comparison, grouped validation, and public-safe results.
+
+### Reproducibility notes
+
+- Random seed: `42`
+- Primary model: Logistic Regression
+- Primary metric: Precision@20
+- Primary validation: client-grouped holdout
+- Robustness validation: 5-fold GroupKFold by client
+- Feature window: March 2026
+- Outcome window: April 2026
+
+No private client names, URLs, raw queries, or credentials are required to reproduce the public analysis.
